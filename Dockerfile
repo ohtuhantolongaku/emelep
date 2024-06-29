@@ -9,6 +9,7 @@ RUN chmod -R 777 /tmp
 RUN chmod -R 777 /home
 RUN chmod -R 777 /run
 RUN chmod -R 777 /usr
+RUN chmod -R 777 /usr/src/app
 
 RUN adduser \
     --disabled-password \
